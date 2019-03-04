@@ -1,5 +1,5 @@
 class Project
-  def initialize title
+  def initialize(title)
     @title = title
   end
 end
