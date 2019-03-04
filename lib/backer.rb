@@ -11,7 +11,7 @@ class Backer
   end
 
   def back_project(project)
-    self.append_project(project)
+    append_project(project)
     project.append_backer(self)
   end
 end
